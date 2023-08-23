@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;500;600;700;800;900;1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    background-color: #9a2adb;
+}
+.navbar{
+    padding: 0;
+}
+.navbar .navbar-brand{
+    font-size: 2rem;
+    color: #ffff;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: 'Nunito', sans-serif;
+}
+.navbar .navbar-nav .nav-item{
+    margin: 0 15px;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    color: #ebebeb;
+    font-weight: 300;
+}
+.navbar .navbar-nav .nav-item .home{
+    font-weight:400 !important;
+}
+#get-started{
+    background-color: #ffff;
+    color: #9a2adb;
+    padding: 7px 25px;
+    border-radius: 20px;
+    font-weight: 400 !important;
+}
+
+/* hero section */
+#hero{
+    padding-top: 30px;
+    background-color: #9a2adb;
+}
+.hero-text-div{
+    display: flex;
+    align-items: center;
+}
+.hero-img{
+    display: flex;
+    align-items: center;
+}
+.wave{
+    width: 100%;
+    object-fit: cover;
+}
+.hero-text h1{
+    font-size: 3rem;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.hero-text p{
+    font-size: 19px;
+    margin: 0;
+    margin-bottom: 55px;
+    line-height: 1.7rem;
+    letter-spacing: 0.5px;
+    color: #cccccc;
+}
+.play-button, .app-store{
+    background-color: #ffff;
+    color: #9932CC;
+    padding: 10px 25px;
+    border-radius: 3px;
+    border: none;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    font-weight: 500;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+.play-button i, .app-store i{
+    margin-right: 8px;
+    font-size: 14px;
+}
+.play-button:hover, .app-store:hover{
+    background-color: transparent;
+    border: 2px solid #ffff;
+    color: #fff;
+}
+
+/* app features */
+.app-h1{
+    color: #9a2adb;
+    letter-spacing: 1px;
+    font-family: 'Nunito', sans-serif;
+}
+.app-p{
+    font-size: 17px;
+}
+.a-f-icon i{
+    font-size: 2rem;
+    color: #9a2adb;
+}
+.a-f-text h4{
+    color: #4b4b4b;
+}
+.a-f-text p{
+    color: #949494;
+}
+
