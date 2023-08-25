@@ -114,10 +114,16 @@
 .a-f-text p{
     color: #949494;
 }
-.app-feature-text{
-    flex-wrap: wrap;
+/*  */
+@media screen and (min-width:320px) and (max-width:1024px)  {
+    .app-feature-text{
+        flex-wrap: wrap;
+    }
+    .contact-info{
+        display: flex;
+        justify-content: center;
+    }
 }
-
 /* pricing */
 .price-chart{
     padding: 50px 0;
@@ -201,7 +207,7 @@
 /* contact */
 .contact-info{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 .add{
     background: linear-gradient(to top right, #9a2adb, #BB73E0);
@@ -374,18 +380,12 @@ ul li{
     justify-content: space-around;
     align-items: center;
     color: #ffff;
+    padding-bottom: 30px;
 }
-footer .copy{
-    margin: 0;
-}
-.copy-icon a{
-    text-decoration: none;
-}
-.copy-icon i{
-    margin-left: 100px;
-    background-color: #fff;
-    color: #9a2adb;
-    padding: 15px;
-    border-radius: 50%;
-    font-weight: 700;
+@media screen and (max-width:567px) {
+    .copy-div{
+        display: block;
+        padding-left: 30px;
+        line-height: 30px;
+    }
 }
