@@ -119,10 +119,6 @@
     .app-feature-text{
         flex-wrap: wrap;
     }
-    .contact-info{
-        display: flex;
-        justify-content: center;
-    }
 }
 /* pricing */
 .price-chart{
@@ -208,6 +204,19 @@
 .contact-info{
     display: flex;
     /* flex-wrap: wrap; */
+}
+@media screen and (min-width:520px) and (max-width:1024px)  {
+    .contact-info{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:519px) {
+    .contact-info{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 .add{
     background: linear-gradient(to top right, #9a2adb, #BB73E0);
